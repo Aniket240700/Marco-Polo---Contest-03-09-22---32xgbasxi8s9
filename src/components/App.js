@@ -22,8 +22,8 @@ const App = () => {
   
   return (
     <div id="main">
-     <h1>{heading}</h1>
-     <button onClick={toggle}>{button}</button>
+     <h1 id="marco-polo">{heading}</h1>
+     <button onClick={toggle} id='marco-polo-toggler'>{button}</button>
     </div>
   )
 }
