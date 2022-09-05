@@ -2,21 +2,21 @@ import React,{useState} from 'react'
 import '../styles/App.css';
 const App = () => {
   
-  const [button,setButton] = useState('polo');
-  const [heading,setHeading] = useState('marco');
+  const [button,setButton] = useState('Polo');
+  const [heading,setHeading] = useState('Marco');
   
   function toggle(){
-  if(button == 'polo'){
-  setButton('marco');
+  if(button == 'Polo'){
+  setButton('Marco');
   }
     else{
-    setButton('polo');
+    setButton('Polo');
     }
-    if(heading == 'polo'){
-    setHeading('marco');
+    if(heading == 'Polo'){
+    setHeading('Marco');
     }
     else{
-    setHeading('polo');
+    setHeading('Polo');
     }
   }
   
